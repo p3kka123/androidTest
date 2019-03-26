@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="75dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#c7c7c7"
+    android:orientation="horizontal">
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Pause"
+            android:textSize="25dp"
+            android:paddingBottom="25dp"
+            android:id="@+id/workoutText1"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            app:layout_constraintTop_toBottomOf="@id/workoutText1"
+            android:paddingTop="30dp"
+            android:text="0"
+            android:textSize="20dp"
+            android:id="@+id/time1"
+            />
+
+    </android.support.constraint.ConstraintLayout>
+
+</LinearLayout>
